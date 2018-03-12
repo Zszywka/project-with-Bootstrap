@@ -1,0 +1,26 @@
+/* for all */
+img {
+  margin: 0 auto;
+}
+.container .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .center button {
+  margin: 5px;
+}
+.container .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media (max-width:767px) {
+  .container {
+    margin: 5px;
+  }
+  h1, h2 {
+    font-size: 20px;
+  }
+}
