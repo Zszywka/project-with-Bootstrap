@@ -1,0 +1,8 @@
+.jumbotron {
+  background: #d53369; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d53369 , #cbad6d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d53369 , #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+h1 {
+  margin-bottom:50px;
+}
