@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="my hobby-diving">
+		<title>BOOTSRAP 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+  <body>
+
+		<!-- DROPDOWN -->
+		<div class="dropdown">
+			<!-- button with text-Dropdown -->
+		  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dropdown
+				<!-- sign next to the text-->
+		  <span class="caret"></span></button>
+			<!-- content menu -->
+		  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+		    <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+		    <li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+		    <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li>
+		    <li role="presentation" class="divider"></li>
+		    <li role="presentation"><a role="menuitem" href="#">O nas</a></li>
+		  </ul>
+		</div>
+
+		<!-- POPOVER -->
+		<div class="container">
+			<!-- just hover over the cursor and you see clouds -->
+		  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip to the right">Tooltip to the right</button>
+		  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip to the left">Tooltip to the left</button>
+			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip above">Tooltip above</button>
+			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip below">Tooltip below</button>
+		</div>
+		<!-- click on the button and you see clouds -->
+		<div class="container text-center">
+		  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover - title" data-content="Popovera" data-placement="bottom">Show popover</button>
+		</div>
+
+    <!-- connection with bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
