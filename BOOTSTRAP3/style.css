@@ -1,0 +1,78 @@
+/* Nav */
+div.navbar-header a.navbar-brand {
+  color: #ff0000;
+  text-transform: uppercase;
+}
+button.btn.btn-dengerous {
+  color: #ff0000;
+}
+ul.navbar-nav a.link {
+  color: #ff0000;
+  text-transform: uppercase;
+}
+
+/*  Carousel */
+[class*="example"]{
+  min-height:300px;
+}
+.example-1 {
+	background-image: url("https://images.pexels.com/photos/132474/pexels-photo-132474.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");;
+  background-size: cover;
+}
+.example-2 {
+	background-image: url("https://images.pexels.com/photos/268660/pexels-photo-268660.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");;
+  background-size: cover;
+}
+.example-3 {
+	background-image: url("https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+}
+.example-4 {
+	background-image: url("https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+}
+.example-5 {
+	background-image: url("https://images.pexels.com/photos/226400/pexels-photo-226400.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+}
+span.glyphicon.glyphicon-chevron-left::before,
+span.glyphicon.glyphicon-chevron-right::before {
+  color: #000;
+}
+/* Tabs */
+ul.nav.nav-pills.nav-justified {
+  margin-top: 50px;
+}
+button.btn.btn-success {
+  margin-bottom: 10px;
+}
+div#home.tab-pane.fade.in.active {
+  /* margin-left: 30%; */
+}
+button.btn.btn-default {
+  margin-top: 30px;
+  /* margin-right: 20px; */
+  color: #8e44ad;
+	border-color: #8e44ad;
+	background-image: linear-gradient(500deg, #8e44ad 50%);
+}
+
+/* Popover */
+.container {
+  padding:40px;
+}
+button {
+  display: block;
+}
+
+/* Modal */
+.container-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.btn.btn-info.btn-lg {
+  color: #000;
+  font-size: bold;
+  text-transform: uppercase;
+}
